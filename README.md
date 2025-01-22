@@ -99,4 +99,77 @@ git log
 
 ---
 
+## 🎯 **Sinkronisasi dengan Repo di GitHub (Pull Update dari Remote Repo)**  
+- Kalau mau update project di lokal dengan perubahan terbaru dari GitHub:  
+  ```bash  
+  git pull origin master  
+  ```  
+
+---
+
+## 🤔 **Hapus File dari Repo (Git Remove)**  
+- Kalau mau hapus file dari repository (tapi tetep simpan di lokal):  
+  ```bash  
+  git rm --cached namafile  
+  ```  
+- Kalau mau hapus file dari repository dan lokal sekaligus:  
+  ```bash  
+  git rm namafile  
+  ```  
+
+---
+
+## 🔍 **Liat Bedanya (Diff)**  
+- Buat cek perbedaan antara file yang diubah dengan yang di-commit:  
+  ```bash  
+  git diff  
+  ```  
+
+---
+
+## 📂 **Cloning Repository**  
+- Kalau mau ambil repo dari GitHub (buat pertama kali):  
+  ```bash  
+  git clone link-repo  
+  ```  
+
+---
+
+## 🚮 **Hapus Branch**  
+- Kalau mau hapus branch di lokal (karena udah gak dipakai):  
+  ```bash  
+  git branch -d namaBranch  
+  ```  
+- Kalau branch udah dihapus di remote:  
+  ```bash  
+  git push origin --delete namaBranch  
+  ```  
+
+---
+
+## 🔧 **Merge Branch**  
+- Kalau mau gabung branch tertentu ke `master` (di lokal):  
+  ```bash  
+  git checkout master  
+  git merge namaBranch  
+  ```  
+
+---
+
+## 🔒 **Amankan Commit Terakhir (Amend)**  
+- Kalau mau edit commit terakhir (misal: salah pesan commit):  
+  ```bash  
+  git commit --amend -m "Pesan baru"  
+  ```  
+
+---
+
+## 🧹 **Bersihin File Tak Terpakai (Clean)**  
+- Kalau mau hapus file yang gak di-track (belum di-add):  
+  ```bash  
+  git clean -f  
+  ```  
+
+---
+
 Segitu aja, gampang kan? Kalau masih bingung, inget: Stackoverflow adalah sahabat kita!, atau GPT eiiits... ✌️
