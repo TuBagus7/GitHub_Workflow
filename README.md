@@ -172,4 +172,9 @@ git log
 
 ---
 
+## 🔙 **Restore Code dari Github**
+- Apa bila di lokal kalian, ada file yang tidak sengaja terhapus, tapi di git repo masih ada, bisa di restore
+```bash  
+ git restore --source=main (folder atau file yang hilang)  
+  ```  
 Segitu aja, gampang kan? Kalau masih bingung, inget: Stackoverflow adalah sahabat kita!, atau GPT eiiits... ✌️
