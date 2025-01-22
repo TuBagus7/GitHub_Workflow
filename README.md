@@ -99,4 +99,4 @@ git log
 
 ---
 
-Segitu aja, gampang kan? Kalau masih bingung, inget: Googling adalah sahabat kita! ✌️
+Segitu aja, gampang kan? Kalau masih bingung, inget: Stackoverflow adalah sahabat kita!, atau GPT eiiits... ✌️
