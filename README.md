@@ -1,11 +1,11 @@
-# 💻 **Git Workflow ala Anak Gaul**  
-Yo, bro/sis! Ini tutorial pake Git yang gampang dan asik buat nyimpen atau update project lo di GitHub. Langsung gas aja, ya!  
+# 💻 **Git Workflow ala Tu Bagus **  
+Ini tutorial pake Git yang gampang dan asik buat nyimpen atau update project kalian di GitHub. Langsung gas aja, ya!  
 
 ---
 
 ## 🎬 **Cara Upload Project Pertama Kali**  
-1. Login ke GitHub, bikin repo baru (kasih nama sekeren mungkin).  
-2. Di komputer/laptop lo:  
+1. Login ke GitHub, bikin repo baru (kasih nama sesuai apa aplikasi yang kamu buat atau kasih nama sekeren mungkin).  
+2. Di komputer/laptop kalian:  
    - Arahkan terminal ke folder project lo:  
      ```bash  
      cd /var/www/html/aplikasi/  
